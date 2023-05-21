@@ -11,8 +11,8 @@ Complete the following steps:
 
 Run the following commands in command-line:
 ```
-virtualenv -p python3 <env-name>
-source <env_name>/bin/activate
+virtualenv -p python3 .venv
+source .venv/bin/activate
 pip install requirements.txt
 ```
 Note: Tested in virtualenv with following configuration(as on 28th Jan, 2021):
